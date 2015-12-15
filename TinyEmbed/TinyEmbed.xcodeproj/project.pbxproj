@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		31AC93811B97006A003E6003 /* libTiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AC93801B97006A003E6003 /* libTiny.a */; };
-		394A8F421C1FF6D5007882FD /* EmbedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 394A8F3F1C1FF6D5007882FD /* EmbedTest.m */; settings = {ASSET_TAGS = (); }; };
-		394A8F431C1FF6D5007882FD /* TinyEmbed.m in Sources */ = {isa = PBXBuildFile; fileRef = 394A8F411C1FF6D5007882FD /* TinyEmbed.m */; settings = {ASSET_TAGS = (); }; };
+		394A8F481C1FFF73007882FD /* EmbedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 394A8F451C1FFF73007882FD /* EmbedTest.m */; settings = {ASSET_TAGS = (); }; };
+		394A8F491C1FFF73007882FD /* TinyEmbed.m in Sources */ = {isa = PBXBuildFile; fileRef = 394A8F471C1FFF73007882FD /* TinyEmbed.m */; settings = {ASSET_TAGS = (); }; };
 		3961740F1B57631F005E5D4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3961740E1B57631F005E5D4C /* CoreGraphics.framework */; };
 		396174111B576328005E5D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396174101B576328005E5D4C /* Foundation.framework */; };
 		396174131B57632F005E5D4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396174121B57632F005E5D4C /* UIKit.framework */; };
@@ -29,10 +29,10 @@
 
 /* Begin PBXFileReference section */
 		31AC93801B97006A003E6003 /* libTiny.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTiny.a; sourceTree = "<group>"; };
-		394A8F3E1C1FF6D5007882FD /* EmbedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmbedTest.h; path = ../../EmbedTest.h; sourceTree = "<group>"; };
-		394A8F3F1C1FF6D5007882FD /* EmbedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmbedTest.m; path = ../../EmbedTest.m; sourceTree = "<group>"; };
-		394A8F401C1FF6D5007882FD /* TinyEmbed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TinyEmbed.h; path = ../../TinyEmbed.h; sourceTree = "<group>"; };
-		394A8F411C1FF6D5007882FD /* TinyEmbed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TinyEmbed.m; path = ../../TinyEmbed.m; sourceTree = "<group>"; };
+		394A8F441C1FFF73007882FD /* EmbedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbedTest.h; sourceTree = "<group>"; };
+		394A8F451C1FFF73007882FD /* EmbedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbedTest.m; sourceTree = "<group>"; };
+		394A8F461C1FFF73007882FD /* TinyEmbed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyEmbed.h; sourceTree = "<group>"; };
+		394A8F471C1FFF73007882FD /* TinyEmbed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyEmbed.m; sourceTree = "<group>"; };
 		3961740E1B57631F005E5D4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		396174101B576328005E5D4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		396174121B57632F005E5D4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -87,10 +87,10 @@
 		399144661B4A258200D8AF33 /* TinyEmbed */ = {
 			isa = PBXGroup;
 			children = (
-				394A8F3E1C1FF6D5007882FD /* EmbedTest.h */,
-				394A8F3F1C1FF6D5007882FD /* EmbedTest.m */,
-				394A8F401C1FF6D5007882FD /* TinyEmbed.h */,
-				394A8F411C1FF6D5007882FD /* TinyEmbed.m */,
+				394A8F441C1FFF73007882FD /* EmbedTest.h */,
+				394A8F451C1FFF73007882FD /* EmbedTest.m */,
+				394A8F461C1FFF73007882FD /* TinyEmbed.h */,
+				394A8F471C1FFF73007882FD /* TinyEmbed.m */,
 			);
 			path = TinyEmbed;
 			sourceTree = "<group>";
@@ -181,8 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				394A8F421C1FF6D5007882FD /* EmbedTest.m in Sources */,
-				394A8F431C1FF6D5007882FD /* TinyEmbed.m in Sources */,
+				394A8F481C1FFF73007882FD /* EmbedTest.m in Sources */,
+				394A8F491C1FFF73007882FD /* TinyEmbed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
