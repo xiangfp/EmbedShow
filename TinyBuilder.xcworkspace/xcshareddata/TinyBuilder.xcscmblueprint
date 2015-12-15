@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3E75BA226104BB95C3AAAB5D69074FAC201424E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3b1c26cb-27ff-bf4c-afc4-262e580e63a5++8402" : 0,
+    "3E75BA226104BB95C3AAAB5D69074FAC201424E0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AC6B8969-9C96-447F-8299-B8F99E03E565",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3b1c26cb-27ff-bf4c-afc4-262e580e63a5++8402" : "IOS",
+    "3E75BA226104BB95C3AAAB5D69074FAC201424E0" : "EmbedShow\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TinyBuilder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TinyBuilder.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiangfp\/EmbedShow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E75BA226104BB95C3AAAB5D69074FAC201424E0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/10.25.0.31\/svn\/TINYBUILD",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3b1c26cb-27ff-bf4c-afc4-262e580e63a5++8402"
+    }
+  ]
+}
