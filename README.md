@@ -1,4 +1,4 @@
-# ABC
+# EmbedShow
 
 [![CI Status](http://img.shields.io/travis/xiangfp/ABC.svg?style=flat)](https://travis-ci.org/xiangfp/ABC)
 [![Version](https://img.shields.io/cocoapods/v/ABC.svg?style=flat)](http://cocoapods.org/pods/ABC)
@@ -17,7 +17,7 @@ ABC is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ABC"
+pod "EmbedShow"
 ```
 
 ## Author
@@ -26,5 +26,5 @@ xiangfp, 457813584@qq.com
 
 ## License
 
-ABC is available under the MIT license. See the LICENSE file for more info.
-# ABC
+EmbedShow is available under the MIT license. See the LICENSE file for more info.
+# EmbedShow
