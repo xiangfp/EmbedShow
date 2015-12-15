@@ -1,0 +1,169 @@
+/******************************************************************
+ 文件名称: Localizable.strings
+ 系统名称: 移动平台
+ 模块名称: 客户端
+ 类 名 称: Password
+ 软件版权: 杭州长亮金融信息服务有限公司
+ 功能说明: 
+ 系统版本: 
+ 开发人员: 
+ 开发时间: 11-10-26
+ 审核人员:
+ 相关文档:
+ 修改记录: 需求编号:2011100101 修改日期:20111111 修改人员:葛亮 修改说明：整理字符串信息
+		qc.1311 2011128  修改amount最小值判断提示语句。
+		需求编号 2011100101 修改日期：2011-12-21 修改内容：增加confirmtitle的配置项
+        201204190034 20120420     增加二维码扫描无摄像头提示信息
+        S1.1.4 20120626 葛亮 增加下载提示信息
+******************************************************************/
+ 
+/*alertTitle*/
+"launchFailedTitle" = "Initializing failed";
+"alertErrorTitle" = "Input not correct";
+"alertPromptTitle" = "Prompt";
+"alertSubmitTitle" = "Request unsuccessful";
+"alertConfirmTitle" = "";
+
+/*btnTitle*/
+"btnOk" = "OK";
+"btnDelete" = "Delete";
+"btnCancel" = "Cancel";
+"btnToday" = "Today";
+"btnClose" = "Close";
+"btnDetail" = "Detail";
+"btnRetry" = "Retry";
+"btnPwdCancel" = "Please enter the password again";
+"noWarn" = "Next time no longer prompt";
+
+/*Tip*/
+"dateTip" = "Please select a date";
+"selectTip" = "Please select";
+"passwordTip" = "Please input the password";
+"splashTip" = "Now loading, please wait...";
+
+/*splash message*/
+"launchFailedMsg" = "Failed to connect to the server, please check the network status and try again.";
+"jailbrokenMsg" = "Detect your device has been JailBroken. Jailbreak is likely to pose a risk to the bank account of your mobile, in order to ensure your account funds more security, mobile transaction is more reliable, it is recommended that you did not jailbreak using mobile banking service. \n Please click 'OK' to continue or press the Home button to exit mobile banking";
+
+/*HUD message*/
+"btnWaitMsg" = "Please wait..." ;
+"HUDRequestMsg" = "Requesting data...";
+"HUDRenderMsg" = "Loading page...";
+"HUDRequestError" = "Request error";
+"HUDServerError" = "Server error";
+"HUDHsmlError" = "Page error";
+"HUDProgramError" = "Processing error";
+
+/*NetworkConstants*/
+"networkErrorTimeout" = "Network timeout. If the account deals, please check your balance or details to confirm whether the transaction succeeded.";
+"defaultError" = "Network error";
+
+/*Form message*/
+"requiredErrorMsg" = "Required items are not filled in.";
+
+/*text message*/
+"maxlenAlertMsg" = "The length you input should not be more than %d figures.";
+"minlenAlertMsg" = "The length you input should not be less than %d figures.";
+"emailAlertMsg" = "Please enter the legitimate E-mail address";
+"cardAlertMsg" = "Please enter valid 18 or 15 letters ID";
+"phoneAlertMsg" = "Please enter valid 11 numbers cellphone number";
+"regexAlertMsg" = "Please enter valid information";
+"pwdAlertMsg" = "The password you entered is too simple, please reset ";
+
+/*password strength*/
+"pwdStrengthWeak" = "Weak";
+"pwdStrengthLow" = "Low";
+"pwdStrengthMid" = "Mid";
+"pwdStrengthHigh" = "High";
+"pwdStrengthStrong" = "Strong";
+
+/*webView*/
+"loadFailHtml" = "<html><body><text>Can not connect to the web page.</text></body></html>";
+
+/*amount*/
+"amountMaxlenMsg" = "The length of amount of integer you enter  should not be longer than %d figures.";
+"amountMinMsg" = "The amount you enter should not be less than or equal to %@.";
+"amountDefaultValue" = "零圆整";
+"amountMinGTMsg" = "The amount value you entered should be more than %@.";
+"amountMinGTEQMsg" = "The amount value you entered should be equal or more than %@.";
+"amountMaxLTMsg" = "The amount value you entered should be less than %@.";
+"amountMaxLTEQMsg" = "The amount value you entered should be equal or less than %@.";
+
+/*number*/
+"numberMinMsg" = "The numerical value you enter should not be less than %@.";
+"numberMaxMsg" = "The numerical value you enter should not be bigger than %@.";
+"numberMinGTMsg" = "The numerical value you enter should be bigger than %@.";
+"numberMinGTEQMsg" = "The numerical value you enter should be equal or bigger than %@.";
+"numberMaxLTMsg" = "The numerical value you enter should be less than %@.";
+"numberMaxLTEQMsg" = "The numerical value you enter should be equal or less than %@.";
+
+/*password*/
+"pwdMinMsg" = "The length of password you enter should not be less than %d.";
+
+/*windowManager*/
+"networkError" = "Network error, please try again later...";
+
+/*FunctionExecuter*/
+"mailSaveMsg" = "Email successfully saved";
+"mailSendMsg1" = "Email sent successfully" ;
+"mailSendMsg0" = "Send Email failed";
+"smsSendMsg1" = "SMS sent successfully";
+"smsSendMsg0" = "SMS sent failure";
+"restartMsg" = "Are you sure you want to log out?"; 
+"noCameraMsg" = "您的设备没有摄像头，请使用带有摄像头的设备进行此操作"; 
+
+/*DownloadManager*/
+"downloadingMsg" = "请稍等....";
+"tip" = "文件名不能为空";
+"requireTitile" = "文件名输入不能为空";
+"finishMsg" = "下载完成";
+"failedMsg" = "下载失败";
+"successMsg" = "下载成功";
+"conformMsg" = "确认下载";
+"coverMsg" = "确定要覆盖当前文件吗？";
+"coverTitle" = "已经存在";
+"infoTitle" = "文件已存在!";
+"download" = "下载";
+"submit" = "确定";
+"cancel" = "取消";
+"cover" = "覆盖";
+"hide" = "隐藏";
+"unkown" = "未知";
+
+/*remote notification*/
+"notificationTitle" = "新消息";
+
+/*favourite*/
+"favAdd" = "Add";
+"favDone" = "Done";
+"favAddTitle" = "Add to my favorite";
+"favSearchTip" = "Search Transactions";
+"favAlreadyAdded" = "Already in my favorite";
+"featureSearchTitle" = "Transaction Search";
+"favAdded" = "Successfully added to my favorite";
+"favCannotRemove" = "Fixed function cannot be removed";
+"favRemoved" = "Has been removed from my favorite";
+
+
+/*QRCode*/
+"QRGenError" = "二维码生成失败。";
+"QRHint" = "将方框对准二维码，即可自动扫描";
+"QRDecryptFail" = "无效的二维码名片。二维码内容：\n%@";
+"QRbtntorch" = "补光灯";
+"QRbtnlocal" = "相册";
+"QRLocalFail" = "本地图片识别失败，请确认选择的图片是有效的二维码图片。";
+
+/*save image*/
+"image_saving" = "图片保存中...";
+"image_save_succ" = "图片已保存到相册。";
+"image_save_fail" = "图片保存失败：%@";
+
+/*UPPay*/
+"UPPayTitle" = "银联支付结果";
+"UPPayCancel" = "您已取消支付";
+"UPPayFail" = "支付失败！";
+"UPPaySuccess" = "支付成功！";
+"PhotoPrivacyTip" = "请在设备的设置-隐私-相机中允许访问相机。";
+
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:EmbedShow.podspec">
+   </FileRef>
+   <FileRef
+      location = "group:TinyEmbed/TinyEmbed.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TinyBuilder/TinyBuilder.xcodeproj">
+   </FileRef>
+</Workspace>

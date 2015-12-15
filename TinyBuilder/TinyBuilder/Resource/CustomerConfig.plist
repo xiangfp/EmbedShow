@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTimer</key>
+	<string>1</string>
+	<key>csspath</key>
+	<string>file:///css/style.css</string>
+	<key>shakeflag</key>
+	<string>YES</string>
+	<key>keyboardfeedback</key>
+	<string>true</string>
+	<key>KeyboardSwitch</key>
+	<string>true</string>
+	<key>scale1</key>
+	<string>2</string>
+	<key>boxModel</key>
+	<string>boxModelB</string>
+</dict>
+</plist>

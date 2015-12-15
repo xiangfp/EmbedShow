@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31AC93811B97006A003E6003 /* libTiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AC93801B97006A003E6003 /* libTiny.a */; };
+		394A8F171C1FE5F2007882FD /* TinyEmbed.m in Sources */ = {isa = PBXBuildFile; fileRef = 394A8F161C1FE5F2007882FD /* TinyEmbed.m */; settings = {ASSET_TAGS = (); }; };
+		394A8F1A1C1FE714007882FD /* EmbedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 394A8F191C1FE714007882FD /* EmbedTest.m */; settings = {ASSET_TAGS = (); }; };
+		3961740F1B57631F005E5D4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3961740E1B57631F005E5D4C /* CoreGraphics.framework */; };
+		396174111B576328005E5D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396174101B576328005E5D4C /* Foundation.framework */; };
+		396174131B57632F005E5D4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396174121B57632F005E5D4C /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		399144621B4A258200D8AF33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		31AC93801B97006A003E6003 /* libTiny.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTiny.a; sourceTree = "<group>"; };
+		394A8F151C1FE5F2007882FD /* TinyEmbed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyEmbed.h; sourceTree = "<group>"; };
+		394A8F161C1FE5F2007882FD /* TinyEmbed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyEmbed.m; sourceTree = "<group>"; };
+		394A8F181C1FE714007882FD /* EmbedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbedTest.h; sourceTree = "<group>"; };
+		394A8F191C1FE714007882FD /* EmbedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbedTest.m; sourceTree = "<group>"; };
+		3961740E1B57631F005E5D4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		396174101B576328005E5D4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		396174121B57632F005E5D4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		399144641B4A258200D8AF33 /* libTinyEmbed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTinyEmbed.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		399144751B4A258200D8AF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399144811B4A26D800D8AF33 /* Embed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Embed.h; sourceTree = "<group>"; };
+		399144851B4A279100D8AF33 /* Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
+		399144861B4A27AD00D8AF33 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		399144871B4A2C3800D8AF33 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		399144881B4A2C8100D8AF33 /* ElementContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementContext.h; sourceTree = "<group>"; };
+		399144891B4A2CAC00D8AF33 /* ViewContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContext.h; sourceTree = "<group>"; };
+		39C2C8881B4A9BA80041C306 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		399144611B4A258200D8AF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396174131B57632F005E5D4C /* UIKit.framework in Frameworks */,
+				396174111B576328005E5D4C /* Foundation.framework in Frameworks */,
+				3961740F1B57631F005E5D4C /* CoreGraphics.framework in Frameworks */,
+				31AC93811B97006A003E6003 /* libTiny.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3991445B1B4A258200D8AF33 = {
+			isa = PBXGroup;
+			children = (
+				31AC93801B97006A003E6003 /* libTiny.a */,
+				396174121B57632F005E5D4C /* UIKit.framework */,
+				396174101B576328005E5D4C /* Foundation.framework */,
+				3961740E1B57631F005E5D4C /* CoreGraphics.framework */,
+				399144801B4A26D800D8AF33 /* include */,
+				399144661B4A258200D8AF33 /* TinyEmbed */,
+				399144731B4A258200D8AF33 /* TinyEmbedTests */,
+				399144651B4A258200D8AF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		399144651B4A258200D8AF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399144641B4A258200D8AF33 /* libTinyEmbed.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		399144661B4A258200D8AF33 /* TinyEmbed */ = {
+			isa = PBXGroup;
+			children = (
+				394A8F181C1FE714007882FD /* EmbedTest.h */,
+				394A8F191C1FE714007882FD /* EmbedTest.m */,
+				394A8F151C1FE5F2007882FD /* TinyEmbed.h */,
+				394A8F161C1FE5F2007882FD /* TinyEmbed.m */,
+			);
+			path = TinyEmbed;
+			sourceTree = "<group>";
+		};
+		399144731B4A258200D8AF33 /* TinyEmbedTests */ = {
+			isa = PBXGroup;
+			children = (
+				399144741B4A258200D8AF33 /* Supporting Files */,
+			);
+			path = TinyEmbedTests;
+			sourceTree = "<group>";
+		};
+		399144741B4A258200D8AF33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				399144751B4A258200D8AF33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		399144801B4A26D800D8AF33 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				39C2C8881B4A9BA80041C306 /* UIButton+Block.h */,
+				399144891B4A2CAC00D8AF33 /* ViewContext.h */,
+				399144881B4A2C8100D8AF33 /* ElementContext.h */,
+				399144871B4A2C3800D8AF33 /* Box.h */,
+				399144861B4A27AD00D8AF33 /* View.h */,
+				399144851B4A279100D8AF33 /* Control.h */,
+				399144811B4A26D800D8AF33 /* Embed.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		399144631B4A258200D8AF33 /* TinyEmbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399144781B4A258200D8AF33 /* Build configuration list for PBXNativeTarget "TinyEmbed" */;
+			buildPhases = (
+				399144601B4A258200D8AF33 /* Sources */,
+				399144611B4A258200D8AF33 /* Frameworks */,
+				399144621B4A258200D8AF33 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyEmbed;
+			productName = TinyEmbed;
+			productReference = 399144641B4A258200D8AF33 /* libTinyEmbed.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3991445C1B4A258200D8AF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Sunline;
+				TargetAttributes = {
+					399144631B4A258200D8AF33 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 3991445F1B4A258200D8AF33 /* Build configuration list for PBXProject "TinyEmbed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3991445B1B4A258200D8AF33;
+			productRefGroup = 399144651B4A258200D8AF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				399144631B4A258200D8AF33 /* TinyEmbed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		399144601B4A258200D8AF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394A8F171C1FE5F2007882FD /* TinyEmbed.m in Sources */,
+				394A8F1A1C1FE714007882FD /* EmbedTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		399144761B4A258200D8AF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		399144771B4A258200D8AF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		399144791B4A258200D8AF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TinyBuilder-fhezrzocgqzzqacivqvmqmdeduft/Build/Products/Debug-iphoneos",
+					"/Users/xiaoyuer/sunline/普惠金融/普惠金融IOS/TinyEmbed",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3991447A1B4A258200D8AF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TinyBuilder-fhezrzocgqzzqacivqvmqmdeduft/Build/Products/Debug-iphoneos",
+					"/Users/xiaoyuer/sunline/普惠金融/普惠金融IOS/TinyEmbed",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3991445F1B4A258200D8AF33 /* Build configuration list for PBXProject "TinyEmbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399144761B4A258200D8AF33 /* Debug */,
+				399144771B4A258200D8AF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399144781B4A258200D8AF33 /* Build configuration list for PBXNativeTarget "TinyEmbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399144791B4A258200D8AF33 /* Debug */,
+				3991447A1B4A258200D8AF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3991445C1B4A258200D8AF33 /* Project object */;
+}

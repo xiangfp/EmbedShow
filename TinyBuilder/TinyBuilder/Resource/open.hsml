@@ -1,0 +1,14 @@
+<tml>
+<head>
+<style href="theme.css" />
+<script src="test.js"/>
+<script src="tools.js"/>
+</head>
+<body>
+
+
+<button value="OpenView" style="width:50%;background-color:#1100aa"/>
+
+
+</body>
+</tml>

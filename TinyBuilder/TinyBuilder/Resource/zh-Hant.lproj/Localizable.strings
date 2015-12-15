@@ -1,0 +1,169 @@
+/******************************************************************
+ 檔案名稱: Localizable.strings
+ 系統名稱: 手機銀行
+ 模組名稱: 用戶端
+ 類 名 稱: Password
+ 軟體版權: 长亮電子股份有限公司
+ 功能說明:
+ 系統版本:
+ 開發人員: 
+ 開發時間: 11-10-26
+ 審核人員:
+ 相關文檔:
+ 修改記錄: 需求編號:2011100101 修改日期:20111111 修改人員:葛亮 修改說明：整理字串資訊
+ qc.1311 2011128  修改amount最小值判斷提示語句。
+ 需求編號 2011100101 修改日期：2011-12-21 修改內容：增加confirmtitle的配置項
+ 201204190034 20120420     增加二維碼掃描無攝像頭提示資訊
+ S1.1.4 20120626 葛亮 增加下載提示資訊
+ ******************************************************************/
+
+/*alertTitle*/
+"launchFailedTitle" = "啟動失敗";
+"alertErrorTitle" = "輸入有誤";
+"alertPromptTitle" = "提示";
+"alertSubmitTitle" = "請求失敗";
+"alertConfirmTitle" = "";
+
+/*btnTitle*/
+"btnOk" = "確定";
+"btnDelete" = "刪除";
+"btnCancel" = "取消";
+"btnToday" = "今天";
+"btnClose" = "關閉";
+"btnDetail" = "詳情";
+"btnRetry" = "重試";
+"btnPwdCancel" = "請重新輸入密碼";
+"noWarn" = "下次不再提示";
+
+/*Tip*/
+"dateTip" = "請選擇日期";
+"selectTip" = "請選擇";
+"passwordTip" = "請輸入";
+"splashTip" = "程式啟動中，請稍候...";
+
+/*splash message*/
+"launchFailedMsg" = "未能連接到伺服器，請您檢查網路狀況後再試。";
+"jailbrokenMsg" = "檢測到您的設備已越獄。越獄可能會對您的手機銀行帳戶帶來風險，為確保您的帳戶資金更加安全，手機交易更加可靠，建議您在未越獄的設備上使用手機銀行服務。\n請按確定繼續或按Home鍵退出手機銀行";
+
+/*HUD message*/
+"btnWaitMsg" = "請稍候..." ;
+"HUDRequestMsg" = "數據請求中...";
+"HUDRenderMsg" = "頁面載入中...";
+"HUDRequestError" = "請求錯誤。";
+"HUDServerError" = "伺服器錯誤。";
+"HUDHsmlError" = "分頁錯誤。";
+"HUDProgramError" = "處理錯誤。";
+
+/*NetworkConstants*/
+"networkErrorTimeout" = "網路超時。若動賬類交易，請查詢餘額或交易明細確認交易是否成功。";
+"defaultError" = "網路錯誤";
+
+/*Form message*/
+"requiredErrorMsg" = "必輸項未填寫";
+
+/*text message*/
+"maxlenAlertMsg" = "您輸入的長度不應大於%d位。";
+"minlenAlertMsg" = "您輸入的長度不應小於%d位。";
+"emailAlertMsg" = "請輸入合法的E-mail位址";
+"cardAlertMsg" = "請輸入有效的15或18位身份證號碼";
+"phoneAlertMsg" = "請輸入有效的11位手機號碼";
+"regexAlertMsg" = "請輸入合法的資訊";
+"pwdAlertMsg" = "您輸入的密碼過於簡單請重新設置";
+
+/*password strength*/
+"pwdStrengthWeak" = "弱";
+"pwdStrengthLow" = "低";
+"pwdStrengthMid" = "中";
+"pwdStrengthHigh" = "高";
+"pwdStrengthStrong" = "強";
+
+/*webView*/
+"loadFailHtml" = "<html><body><text>未能連接到指定的網頁.</text></body></html>";
+
+/*amount*/
+"amountMaxlenMsg" = "您輸入的金額整數長度不應大於%d位。";
+"amountMinMsg" = "您輸入的金額應大於%@。";
+"amountDefaultValue" = "零圓整";
+"amountMinGTMsg" = "您輸入的金額應大於%@。";
+"amountMinGTEQMsg" = "您輸入的金額應大於等於%@。";
+"amountMaxLTMsg" = "您輸入的金額應小於%@。";
+"amountMaxLTEQMsg" = "您輸入的金額應小於等於%@。";
+
+/*number*/
+"numberMinMsg" = "您輸入的數值不應小於%@。";
+"numberMaxMsg" = "您輸入的數值不應大於%@。";
+"numberMinGTMsg" = "您輸入的數值應大於%@。";
+"numberMinGTEQMsg" = "您輸入的數值應大於等於%@。";
+"numberMaxLTMsg" = "您輸入的數值應小於%@。";
+"numberMaxLTEQMsg" = "您輸入的數值應小於等於%@。";
+
+/*password*/
+"pwdMinMsg" = "您輸入的密碼長度不應小於%d位";
+
+/*windowManager*/
+"networkError" = "網路錯誤,請稍後重試⋯";
+
+/*FunctionExecuter*/
+"mailSaveMsg" = "保存郵件成功";
+"mailSendMsg1" = "發送郵件成功" ;
+"mailSendMsg0" = "發送郵件失敗";
+"smsSendMsg1" = "發送短信成功" ;
+"smsSendMsg0" = "發送短信失敗";
+"restartMsg" = "您確定要退出登陸嗎？";
+"noCameraMsg" = "您的設備沒有攝像頭，請使用帶有攝像頭的設備進行此操作";
+
+/*DownloadManager*/
+"downloadingMsg" = "請稍等....";
+"tip" = "檔案名不能為空";
+"requireTitile" = "檔案名輸入不能為空";
+"finishMsg" = "下載完成";
+"failedMsg" = "下載失敗";
+"successMsg" = "下載成功";
+"conformMsg" = "確認下載";
+"coverMsg" = "確定要覆蓋當前檔嗎？";
+"coverTitle" = "已經存在";
+"infoTitle" = "文件已存在!";
+"download" = "下載";
+"submit" = "確定";
+"cancel" = "取消";
+"cover" = "覆蓋";
+"hide" = "隱藏";
+"unkown" = "未知";
+
+/*remote notification*/
+"notificationTitle" = "新消息";
+
+/*favourite*/
+"favAdd" = "添加";
+"favDone" = "完成";
+"favAddTitle" = "添加到我的最愛";
+"favSearchTip" = "搜索交易";
+"favAlreadyAdded" = "已經在我的最愛中。";
+"featureSearchTitle" = "交易搜索";
+"favAdded" = "成功添加到我的最愛";
+"favCannotRemove" = "固定功能不能刪除。";
+"favRemoved" = "已從我的最愛刪除。";
+
+
+/*QRCode*/
+"QRGenError" = "二維碼生成失敗。";
+"QRHint" = "將方框對準二維碼，即可自動掃描";
+"QRDecryptFail" = "無效的二維碼名片。二維碼內容：\n%@";
+"QRbtntorch" = "補光燈";
+"QRbtnlocal" = "相冊";
+"QRLocalFail" = "本地圖片識別失敗，請確認選擇的圖片是有效的二維碼圖片。";
+
+/*save image*/
+"image_saving" = "圖片保存中...";
+"image_save_succ" = "圖片已保存到相冊。";
+"image_save_fail" = "圖片保存失敗：%@";
+
+/*UPPay*/
+"UPPayTitle" = "銀聯支付結果";
+"UPPayCancel" = "您已取消支付";
+"UPPayFail" = "支付失敗！";
+"UPPaySuccess" = "支付成功！";
+"PhotoPrivacyTip" = "请在设备的设置-隐私-相机中允许访问相机。";
+
+
+

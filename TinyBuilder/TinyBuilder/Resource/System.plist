@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>segment-style</key>
+	<string>bezeled</string>
+	<key>timeout</key>
+	<string>10</string>
+	<key>manifestURL</key>
+	<string></string>
+	<key>list</key>
+	<array>
+		<string>file:///home.xml</string>
+		<string>http://10.25.0.142:8090/tbs/TBServlet.tml?transCode=login</string>
+		<string>http://10.25.0.151:8080/T-tbs/TBServlet.tml?transCode=login</string>
+		<string>http://10.25.0.162:8080/tbs2/TBServlet.tml?transCode=login</string>
+		<string>http://101.68.85.171:8090/newtbs/TBServlet.tml</string>
+		<string>http://10.25.0.198:8080/teahouse-tbs/TBServlet.tml?transCode=login</string>
+		<string>http://123.57.208.177:8090/tbs/TBServlet.tml</string>
+	</array>
+	<key>parameters</key>
+	<dict>
+		<key>sys-version</key>
+		<string>1.0</string>
+		<key>sys-client</key>
+		<string>iPhone</string>
+	</dict>
+	<key>index</key>
+	<string>https://mbank.cdrcbank.com/cdnsmbank/T_MHSY.hsml</string>
+	<key>CSSSources</key>
+	<array>
+		<string>file:///css/style.css</string>
+	</array>
+	<key>UPPayScheme</key>
+	<string>BODUPPay</string>
+	<key>UPPayMode</key>
+	<string>01</string>
+	<key>KeyboardSwitch</key>
+	<true/>
+	<key>RSA</key>
+	<dict>
+		<key>Modulus</key>
+		<string>MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJEUl527Xh2OyzKkAIVMDafWvTPL3KEFBfjqQI2C7oXoT6kE0gG3qGh/DAnFuHdrb5sfU9WdIWPqStIdJmiZQa0CAwEAAQ==</string>
+		<key>Exponent</key>
+		<string>010001</string>
+	</dict>
+</dict>
+</plist>
